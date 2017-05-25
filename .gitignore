@@ -1,7 +1,6 @@
-node_modules/
+.vs
+public
 npm-debug.log
 resume.html
 resume.pdf
 .DS_Store
-.vs
-public
