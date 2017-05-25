@@ -1,0 +1,651 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>roosevelt</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						roosevelt
+					</h1>
+					<h2>
+						web dev | data geek | sports enthusiast
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">mezasr@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">(516) 425-9020</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href=""></a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Skilled problem-solver able to communicate with users at all levels of technical proficiency to troubleshoot, resolve and document requests for help with desktop, laptop, mobile, network and other peripheral problems.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						GitHub
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/mezasr">Steve Meza</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://linkedin.com/mezasr">Steve Meza</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Facebook
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.facebook.com/mezasr">Steve Meza</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Elecnor Hawkeye</span>
+					<span class="date">
+						2016-12-01 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.elecnorhawkeye.com">http://www.elecnorhawkeye.com</a>
+				</div>
+				<div class="position">
+					Data Entry Administrator
+				</div>
+				<div class="summary">
+					<p>Elecnor Hawkeye is part of a world-wide conglomerate of companies providing engineering, development and construction of projects relating to infrastructures, renewable energies and new technologies.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Administer data entry tasks of warehouse and shop inventory.</li>
+					<li class="bullet">Assist Fleet Manager in billing unit repairs to third party vendors for return credit.</li>
+					<li class="bullet">Assist Parts Manager in coding work orders for accounting purposes.</li>
+					<li class="bullet">Provide support to Shop Administrator for various invoicing tasks.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Best Buy</span>
+					<span class="date">
+						2016-11-01 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.bestbuy.com">http://www.bestbuy.com</a>
+				</div>
+				<div class="position">
+					Home Theater Consultant
+				</div>
+				<div class="summary">
+					<p>Best Buy is an American transnational consumer electronics corporation.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Consult customers on various aspects of home theater systems, including components, setup and cost.</li>
+					<li class="bullet">Foster client-like relationships with customers by providing customized solutions to home theater needs.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Commercial Building Services Corp.</span>
+					<span class="date">
+						2016-03-01 — 2016-12-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Operations Manager
+				</div>
+				<div class="summary">
+					<p>CBM Corp. strives to provide quality service of facility maintenance for office and retail locations throughout the Tri-state area.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Monitored business operations to achieve weekly goals of high customer satisfaction through careful coordination of project tasks.</li>
+					<li class="bullet">Tracked schedule of 82 employees accurately for weekly payroll.</li>
+					<li class="bullet">Logged quality assurance reports to improve and maintain quality of service.</li>
+					<li class="bullet">Optimized delivery schedule of necessary supplies through keen observation of inventory upkeep on routine basis.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Wiedenbach Brown</span>
+					<span class="date">
+						2015-08-01 — 2016-03-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.wblight.com">http://www.wblight.com</a>
+				</div>
+				<div class="position">
+					Estimator
+				</div>
+				<div class="summary">
+					<p>Wiedenbach Brown is a leading lighting solutions provider specializing in energy efficient lighting, lamps, fixtures and electrical solutions with a unique approach to total supply chain management.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Reviewed engineering drawings submitted by architect/engineer, creating itemized list of lighting fixtures to be allocated for planned construction.</li>
+					<li class="bullet">Compiled cut sheets of fixtures, highlighting relevant information essential to project design and implementation.</li>
+					<li class="bullet">Produced submittal packages to be utilized by estimating manager for quotation and bid proposal purposes.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Adecco Group</span>
+					<span class="date">
+						2015-01-01 — 2015-08-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.adeccogroup.com">http://www.adeccogroup.com</a>
+				</div>
+				<div class="position">
+					Call Center Agent
+				</div>
+				<div class="summary">
+					<p>Adecco is the world&#x27;s leading provider of temporary staffing, permanent placement, career transition and talent development, with various brands specializing in specific industries.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Received calls in promptly and professionaly to assist Adecco associates and colleagues with any payroll inquiries.</li>
+					<li class="bullet">Accurately logged all calls, highlighting major issues and following up on pressing matters if necessary.</li>
+					<li class="bullet">Provided training and additional support to newly hired call center agents.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>RadioShack</span>
+					<span class="date">
+						2014-06-01 — 2016-01-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Mobile Device Repair Technician / Sales Associate
+				</div>
+				<div class="summary">
+					<p>RadioShack is an American chain of stores selling a variety of wireless and electronic products.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Repaired damaged mobile devices, including iPhones, iPads, iPad Minis, and Samsung Galaxy devices.</li>
+					<li class="bullet">Handled glass digitizers, LCDs, logic boards, cameras, batteries, and flex cables with great care to minimize costs of damaged parts.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Althemi Contracting Corp.</span>
+					<span class="date">
+						2013-01-01 — 2014-12-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Operations Coordinator
+				</div>
+				<div class="summary">
+					<p>Althemi Contracting Corp. serves the New York and Long Island area with world class quality maintenance services.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Organized daily business operations with emphasis customer service and satisfaction.</li>
+					<li class="bullet">Improved efficiency of task coordination in effort to help streamline management of contracts.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>MWH Global</span>
+					<span class="date">
+						2008-09-01 — 2012-11-07
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.mwhglobal.com">http://www.mwhglobal.com</a>
+				</div>
+				<div class="position">
+					Business Analyst
+				</div>
+				<div class="summary">
+					<p>MWH Global goes to great lengths to achieve the gold standard of the water and natural resources sectors, providing innovative and sustainable solutions to some of the most challenging projects in communities around the world.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Tracked critical dates (received, acknowledged, responded) and action items for each transmittal, including Requests For Information (RFIs) and submittals from project contractor.</li>
+					<li class="bullet">Managed logs of cost estimates for several areas of project, including potential modifications to contract, specifications, and engineering schematics.</li>
+					<li class="bullet">Conducted on-site inspections and field tests of completed construction work, producing daily reports for CM team records.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Rensselaer Polytechnic Institute</span>
+					<span class="date">
+						2003-06-01 — 2008-08-01
+					</span>
+				</h4>
+				<div class="area">
+					Computer &amp; Systems Engineering
+				</div>
+				<div class="studyType">
+					Bachelor
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Nassau Community College</span>
+					<span class="date">
+						2005-06-01 — 2006-12-01
+					</span>
+				</h4>
+				<div class="area">
+					Engineering Science
+				</div>
+				<div class="studyType">
+					Associate
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>Python</li>
+					<li>Django</li>
+					<li>Javascript</li>
+					<li>jQuery</li>
+					<li>React.js</li>
+					<li>Node.js</li>
+					<li>HTML</li>
+					<li>Bootstrap</li>
+					<li>CSS</li>
+					<li>Sass</li>
+					<li>LESS</li>
+					<li>PHP</li>
+					<li>WordPress</li>
+					<li>WAMP</li>
+					<li>MAMP</li>
+					<li>LAMP</li>
+					<li>MVC</li>
+					<li>REST</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Database</h4>
+				</div>
+				<ul class="keywords">
+					<li>MySQL</li>
+					<li>PostgreSQL</li>
+					<li>SQLite</li>
+					<li>MongoDB</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Data Analysis</h4>
+				</div>
+				<ul class="keywords">
+					<li>R</li>
+					<li>RStudio</li>
+					<li>dplyr</li>
+					<li>ggplot2</li>
+					<li>shiny</li>
+					<li>reshape2</li>
+					<li>D3.js</li>
+					<li>C3.js</li>
+					<li>IPython</li>
+					<li>Jupyter Notebook</li>
+					<li>Numpy</li>
+					<li>pandas</li>
+					<li>matplotlib</li>
+					<li>Excel</li>
+					<li>Power Query</li>
+					<li>PowerPivot</li>
+					<li>Power View</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>General Software Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>C</li>
+					<li>C++</li>
+					<li>C#</li>
+					<li>Java</li>
+					<li>Visual Studio</li>
+					<li>Git</li>
+					<li>Github</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Helpdesk / Customer Service</h4>
+				</div>
+				<ul class="keywords">
+					<li>Windows</li>
+					<li>Mac OS X</li>
+					<li>Linux</li>
+					<li>Office 365</li>
+					<li>Google Apps</li>
+					<li>iOS</li>
+					<li>Android</li>
+					<li>Technical Support</li>
+					<li>Troubleshooting</li>
+					<li>Information Technology</li>
+					<li>Networking</li>
+					<li>Mobile Device Repair</li>
+					<li>PeopleSoft</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Spanish</strong>
+				</div>
+				<div class="fluency">
+					Fluent
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+
+	</div>
+	
+	</body>
+</html>
