@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Steve Meza",
-    "label": "web-developer data-geek sports-enthusiast",
+    "label": "web-developer, data-geek, sports-enthusiast",
     "picture": "",
     "email": "mezasr@gmail.com",
     "phone": "(516) 425-9020",
     "website": "https://mezasr.github.io",
-    "summary": "Passionate tech enthusiast looking to develop skills in software engineering and data analytics.",
+    "summary": "Skilled problem-solver able to communicate with users at all levels of technical proficiency to troubleshoot, resolve and document requests for help with desktop, laptop, mobile, network and other peripheral problems.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -24,11 +24,6 @@
         "network": "LinkedIn",
         "username": "Steve Meza",
         "url": "https://linkedin.com/mezasr"
-      },
-      {
-        "network": "Facebook",
-        "username": "Steve Meza",
-        "url": "https://www.facebook.com/mezasr"
       }
     ]
   },
@@ -43,12 +38,8 @@
       "highlights": [
         "Administer data entry tasks of warehouse and shop inventory.",
         "Assist Fleet Manager in billing unit repairs to third party vendors for return credit.",
-        "Assist Parts Manager in coding work orders for accounting and billing purposes.",
-        "Provide support to Shop Administrator for various invoicing tasks.",
-        "Open work orders for Parts Manager needed to bill out parts to specific units.",
-        "Assist Fleet Manager with various reporting tasks on a weekly and monthly basis, including cost and revenue data.",
-        "Track vehicle inspections and D.O.T. violations of fleet units.",
-        "Collaborate with Accounting Dept. in correctly processing invoices charged out to major purchase orders."
+        "Assist Parts Manager in coding work orders for accounting purposes.",
+        "Provide support to Shop Administrator for various invoicing tasks."
       ]
     },
     {
