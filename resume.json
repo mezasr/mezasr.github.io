@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Steve Meza",
-    "label": "web-developer, data-geek, sports-enthusiast",
+    "label": "web developer, data geek, sports enthusiast",
     "picture": "",
     "email": "mezasr@gmail.com",
     "phone": "(516) 425-9020",
-    "website": "https://mezasr.github.io",
-    "summary": "Skilled problem-solver able to communicate with users at all levels of technical proficiency to troubleshoot, resolve and document requests for help with desktop, laptop, mobile, network and other peripheral problems.",
+    "website": "",
+    "summary": "Master’s candidate in Data Analytics successful in tackling complex new projects with initiative and focus. Skilled problem-solver able to communicate with users at all levels of technical proficiency to troubleshoot, resolve and document requests for help with desktop, laptop, mobile, network and other peripheral problems. Particularly adept in breaking down technical information into easy to understand communications, helping in various training scenarios.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -30,28 +30,31 @@
   "work": [
     {
       "company": "Elecnor Hawkeye",
-      "position": "Data Entry Administrator",
+      "position": "Project Administrator",
       "website": "http://www.elecnorhawkeye.com",
       "startDate": "2016-12-01",
       "endDate": "",
-      "summary": "Elecnor Hawkeye is part of a world-wide conglomerate of companies providing engineering, development and construction of projects relating to infrastructures, renewable energies and new technologies.",
+      "summary": "Administer data entry tasks of fleet department. Close work orders opened for work completed by mechanic shop. Code and process invoices correctly for parts ordered by Fleet Manager, Shop Supervisor, Parts Manager, and shop mechanics. Collaborate with Accounts Payable department for any invoicing issues.",
       "highlights": [
-        "Administer data entry tasks of warehouse and shop inventory.",
-        "Assist Fleet Manager in billing unit repairs to third party vendors for return credit.",
-        "Assist Parts Manager in coding work orders for accounting purposes.",
-        "Provide support to Shop Administrator for various invoicing tasks."
+        "Assist Fleet Manager and Shop Supervisor in tracking unit inspections per D.O.T. compliance regulations",
+        "Created and maintain Preventative Maintenance schedule for fleet of approximately 1400 units.",
+        "Provide support to Fleet Manager and Shop Supervisor for various reporting tasks on weekly basis, including revenue data.",
+        "Puerto Rico Restoration Effort, Jan 2018 - April 2018: Tracked and logged worked hours for 60 employees on 7-day work schedule (timesheets were submitted daily). Managed up-to-date status log for 55 company-owned units, including material handlers and pickup trucks. Served as liaison for correspondences between contractor (Con Edison) and ground crew."
       ]
     },
     {
       "company": "Best Buy",
-      "position": "Home Theater Consultant",
+      "position": "Geek Squad Consultant Agent",
       "website": "http://www.bestbuy.com",
       "startDate": "2016-11-01",
       "endDate": "",
-      "summary": "Best Buy is an American transnational consumer electronics corporation.",
+      "summary": "Greet clients at consultation desk of department. Qualify client’s repair needs. Offer appropriate repair services. Troubleshoot client’s tech and solve any minor issues. Log all client concerns and issues regarding malfunctioning tech. Create service orders accordingly.",
       "highlights": [
-        "Consult customers on various aspects of home theater systems, including components, setup and cost.",
-        "Foster client-like relationships with customers by providing customized solutions to home theater needs."
+        "Engage customers to assess extent of damage to customer devices while suggesting suitable repair services.",
+        "Foster client-like relationships with customers by providing customized solutions to repair needs.",
+        "Market appropriate services to clients as part of complete repair solution while correctly qualifying client's needs.",
+        "Educate clients on repair services performed, including original issues addressed and issues found during repair process.",
+        "Publicize and promote service plan offered by Best Buy to help save clients money on repair services when applicable."
       ]
     },
     {
@@ -60,7 +63,7 @@
       "website": "",
       "startDate": "2016-03-01",
       "endDate": "2016-12-01",
-      "summary": "CBM Corp. strives to provide quality service of facility maintenance for office and retail locations throughout the Tri-state area.",
+      "summary": "",
       "highlights": [
         "Monitored business operations to achieve weekly goals of high customer satisfaction through careful coordination of project tasks.",
         "Tracked schedule of 82 employees accurately for weekly payroll.",
@@ -74,7 +77,7 @@
       "website": "http://www.wblight.com",
       "startDate": "2015-08-01",
       "endDate": "2016-03-01",
-      "summary": "Wiedenbach Brown is a leading lighting solutions provider specializing in energy efficient lighting, lamps, fixtures and electrical solutions with a unique approach to total supply chain management.",
+      "summary": "",
       "highlights": [
         "Reviewed engineering drawings submitted by architect/engineer, creating itemized list of lighting fixtures to be allocated for planned construction.",
         "Compiled cut sheets of fixtures, highlighting relevant information essential to project design and implementation.",
@@ -87,7 +90,7 @@
       "website": "http://www.adeccogroup.com",
       "startDate": "2015-01-01",
       "endDate": "2015-08-01",
-      "summary": "Adecco is the world's leading provider of temporary staffing, permanent placement, career transition and talent development, with various brands specializing in specific industries.",
+      "summary": "",
       "highlights": [
         "Received calls in promptly and professionally to assist Adecco associates and colleagues with any payroll inquiries.",
         "Accurately logged all calls, highlighting major issues and following up on pressing matters if necessary.",
@@ -100,7 +103,7 @@
       "website": "",
       "startDate": "2014-06-01",
       "endDate": "2016-01-01",
-      "summary": "RadioShack is an American chain of stores selling a variety of wireless and electronic products.",
+      "summary": "",
       "highlights": [
         "Repaired damaged mobile devices, including iPhones, iPads, iPad Minis, and Samsung Galaxy devices.",
         "Handled glass digitizers, LCDs, logic boards, cameras, batteries, and flex cables with great care to minimize costs of damaged parts."
@@ -112,7 +115,7 @@
       "website": "",
       "startDate": "2013-01-01",
       "endDate": "2014-12-01",
-      "summary": "Althemi Contracting Corp. serves the New York and Long Island area with world class quality maintenance services.",
+      "summary": "",
       "highlights": [
         "Organized daily business operations with emphasis customer service and satisfaction.",
         "Improved efficiency of task coordination in effort to help streamline management of contracts."
@@ -124,7 +127,7 @@
       "website": "http://www.mwhglobal.com",
       "startDate": "2008-09-01",
       "endDate": "2012-11-07",
-      "summary": "MWH Global goes to great lengths to achieve the gold standard of the water and natural resources sectors, providing innovative and sustainable solutions to some of the most challenging projects in communities around the world.",
+      "summary": "",
       "highlights": [
         "Tracked critical dates (received, acknowledged, responded) and action items for each transmittal, including Requests For Information (RFIs) and submittals from project contractor.",
         "Managed logs of cost estimates for several areas of project, including potential modifications to contract, specifications, and engineering schematics.",
@@ -134,9 +137,18 @@
   ],
   "education": [
     {
+      "institution": "Western Governors University",
+      "area": "Data Analytics",
+      "studyType": "Master's",
+      "startDate": "2018-08-01",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
+    },
+    {
       "institution": "Rensselaer Polytechnic Institute",
       "area": "Computer & Systems Engineering",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor's",
       "startDate": "2003-06-01",
       "endDate": "2008-08-01",
       "gpa": "",
@@ -145,7 +157,7 @@
     {
       "institution": "Nassau Community College",
       "area": "Engineering Science",
-      "studyType": "Associate",
+      "studyType": "Associate's",
       "startDate": "2005-06-01",
       "endDate": "2006-12-01",
       "gpa": "",
