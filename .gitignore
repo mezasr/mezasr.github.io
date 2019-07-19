@@ -1,3 +1,4 @@
 # gitignoring this directory took longer than i'd like to admit -__-
 .vs/
 public/
+resume.json
